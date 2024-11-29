@@ -27,12 +27,14 @@ export default async function Navbar({
               <Link href={`/${lang}/blog`} className="text-sm font-medium transition-colors hover:text-primary">
                 {dict.nav.blog}
               </Link>
-              <Link href={`/${lang}/pricing`} className="text-sm font-medium transition-colors hover:text-primary">
+              {/*<Link href={`/${lang}/pricing`} className="text-sm font-medium transition-colors hover:text-primary">
                 {dict.nav.pricing}
               </Link>
+              */}
             </div>
           </div>
-          <NavbarActions lang={lang} dict={dict} />
+          {/*<NavbarActions lang={lang} dict={dict} />*/}
+          <NavbarActions />
           <MobileNav lang={lang} dict={dict} />
         </nav>
       </div>

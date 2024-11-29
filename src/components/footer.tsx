@@ -1,7 +1,8 @@
 import Link from "next/link"
 import { ThumbsUp } from "lucide-react"
 import { getDictionary } from "@/i18n/get-dictionary"
-import type { Locale } from "@/i18n/config"
+import { locales, localeNames, type Locale } from '@/i18n/config'
+
 
 export default async function Footer({
   lang
@@ -64,8 +65,19 @@ export default async function Footer({
             </div>
           ))}
         </div>
+
         
-        <div className="flex flex-col md:flex-row justify-between items-center mt-12 pt-8 border-t">
+        
+        <div className="flex space-x-4 flex-wrap justify-center items-center t-12 mt-8 pt-6 border-t">
+          {locales.map((locale) => (
+            <span>
+            <a href={`/${locale}`}>{localeNames[locale]}</a>
+            </span>
+          ))}
+        </div>
+        
+        <div className="flex flex-col md:flex-row justify-between items-center pt-6">
+          
           <div className="flex items-center space-x-2">
             <ThumbsUp className="h-6 w-6" />
             <span className="font-semibold">{dict.common.brand}</span>

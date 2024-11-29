@@ -34,12 +34,14 @@ export function MobileNav({ lang, dict }: MobileNavProps) {
           >
             {dict.nav.blog}
           </Link>
+          {/*
           <Link 
             href={`/${lang}/pricing`} 
             className="text-sm font-medium transition-colors hover:text-primary"
           >
             {dict.nav.pricing}
           </Link>
+          */}
         </nav>
       </SheetContent>
     </Sheet>
