@@ -4,13 +4,14 @@ import { remark } from 'remark';
 import html from 'remark-html';
 
 export async function getPost(slug: string, lang: string) {
-  const response = await fetch(`https://nextjs-template-76w.pages.dev/posts/${slug}.${lang}.md`);
-
+  console.log(slug);
+  const response = await fetch(`http://localhost:3000/posts/${slug}.${lang}.md`);
   if (!response.ok) {
     throw new Error(`Failed to fetch post from /posts/${slug}.${lang}.md`);
   }
 
   const fileContents = await response.text();
+  //console.log(fileContents)
   const { data, content } = matter(fileContents);
 
   const processedContent = await remark().use(html).process(content);
