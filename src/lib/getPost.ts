@@ -5,7 +5,7 @@ import html from 'remark-html';
 
 export async function getPost(slug: string, lang: string) {
   console.log(slug);
-  const response = await fetch(`http://localhost:3000/posts/${slug}.${lang}.md`);
+  const response = await fetch(`https://nextjs-template-76w.pages.dev/posts/${slug}.${lang}.md`);
   if (!response.ok) {
     throw new Error(`Failed to fetch post from /posts/${slug}.${lang}.md`);
   }
