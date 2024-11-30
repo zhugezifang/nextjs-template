@@ -5,6 +5,8 @@ import { getDictionary } from '@/i18n/get-dictionary'
 import type { Locale } from '@/i18n/config'
 import type { Metadata } from 'next'
 
+export const runtime = 'edge'
+
 export default async function BlogPage({ params: { lang } }: { params: { lang: Locale } }) {
   const dict = await getDictionary(lang)
   const posts = dict.blog.posts

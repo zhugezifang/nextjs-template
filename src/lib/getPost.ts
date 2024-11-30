@@ -1,3 +1,29 @@
+// src/lib/getPost.ts
+import matter from 'gray-matter';
+import { remark } from 'remark';
+import html from 'remark-html';
+
+export async function getPost(slug: string, lang: string) {
+  const response = await fetch(`/posts/${slug}.${lang}.md`);
+
+  if (!response.ok) {
+    throw new Error(`Failed to fetch post from /posts/${slug}.${lang}.md`);
+  }
+
+  const fileContents = await response.text();
+  const { data, content } = matter(fileContents);
+
+  const processedContent = await remark().use(html).process(content);
+  const contentHtml = processedContent.toString();
+
+  return {
+    slug,
+    contentHtml,
+    ...data,
+  };
+}
+
+/*
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
@@ -23,3 +49,4 @@ export async function getPost(slug: string, lang: string) {
     ...data,
   }
 }
+*/

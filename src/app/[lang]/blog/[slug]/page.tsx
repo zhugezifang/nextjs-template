@@ -7,6 +7,8 @@ import type { Locale } from '@/i18n/config'
 import type { Metadata } from 'next'
 import { ScrollToTop } from "@/components/scroll-to-top"
 
+export const runtime = 'edge'
+
 export default async function BlogPost({ params }: { params: { slug: string, lang: Locale } }) {
   const dict = await getDictionary(params.lang)
   const post = await getPost(params.slug, params.lang) as unknown as { 
