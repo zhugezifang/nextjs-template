@@ -18,13 +18,13 @@ export default async function Navbar({
         <div className="mr-4 flex items-center space-x-2">
           <Link href={`/${lang}`} className="flex items-center space-x-2">
             <Chrome className="h-6 w-6" />
-            <span className="font-bold">{dict.common.brand}</span>
+            <span className="text-xl font-bold">{dict.common.brand}</span>
           </Link>
         </div>
         <nav className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
           <div className="flex-1 md:flex-none">
             <div className="hidden items-center space-x-4 md:flex">
-              <Link href={`/${lang}/blog`} className="text-sm font-medium transition-colors hover:text-primary">
+              <Link href={`/${lang}/blog`} className="text-base font-medium transition-colors hover:text-primary">
                 {dict.nav.blog}
               </Link>
               {/*<Link href={`/${lang}/pricing`} className="text-sm font-medium transition-colors hover:text-primary">

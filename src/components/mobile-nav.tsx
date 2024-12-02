@@ -30,7 +30,7 @@ export function MobileNav({ lang, dict }: MobileNavProps) {
         <nav className="relative flex flex-col space-y-4 mt-8">
           <Link 
             href={`/${lang}/blog`} 
-            className="text-sm font-medium transition-colors hover:text-primary"
+            className="text-base font-medium transition-colors hover:text-primary"
           >
             {dict.nav.blog}
           </Link>
