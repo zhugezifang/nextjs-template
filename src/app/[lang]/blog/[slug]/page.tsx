@@ -22,6 +22,10 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
   return (
     <main className="container py-12 md:py-24">
 
+      <div className={"w-[100%] mx-auto rounded-tl-[30px] rounded-tr-[30px] object-fill"} >
+           <iframe src="https://combinations.org/" allow="autoplay"  style={{ top: '0px', left: '0px',width: '100%', height: '1000px'}}></iframe>
+      </div>
+
       <article className="prose prose-gray dark:prose-invert mx-auto">
         <h1 className="mb-4">{post.title}</h1>
         <div className="flex items-center text-gray-500 mb-8">
