@@ -29,6 +29,7 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
                 document.addEventListener('DOMContentLoaded', () => {
                   const button = document.getElementById('myButton');
                   button.addEventListener('click', () => {
+                    alert("Hello, World!");
                     document.getElementById("game").requestFullscreen();
                   });
                 });
