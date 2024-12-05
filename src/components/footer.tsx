@@ -13,10 +13,7 @@ export default async function Footer({
 
   const footerLinks = {
     [dict.footer.product]: [
-      { name: dict.footer.links.bento, href: `https://bento.me/yeheboo` },
-      { name: dict.footer.links.freeourdays, href: `https://freeourdays.com` },
-      { name: dict.footer.links.distributer, href: `https://distributer.top` },
-      { name: dict.footer.links.githubtree, href: `https://chromewebstore.google.com/detail/github-tree-map/aagofmkgihihajogoojeamnfgpgmehnn` },
+      
     ],
     [dict.footer.social]: [
       { name: dict.footer.links.twitter, href: `https://x.com/freeourdays` },
@@ -79,7 +76,6 @@ export default async function Footer({
         <div className="flex flex-col md:flex-row justify-between items-center pt-6">
           
           <div className="flex items-center space-x-2">
-            <ThumbsUp className="h-6 w-6" />
             <span className="font-semibold">{dict.common.brand}</span>
           </div>
           
