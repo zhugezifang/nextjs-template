@@ -23,15 +23,7 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
   return (
     <main className="container">
 
-      <div className={"w-[100%] mx-auto rounded-tl-[30px] rounded-tr-[30px] object-fill"} >
-        <iframe
-        id="game"
-        src={post.url}
-        style={{border:'10px solid #fff', top: '0px', left: '0px',width: '100%', height: '500px'}} loading="lazy"
-        ></iframe>
-      </div>      
-
-      <article className="prose prose-gray dark:prose-invert mx-auto py-4">
+      <article className="prose prose-gray dark:prose-invert mx-auto">
         <h1 className="mb-4">{post.title}</h1>
         <div className="flex items-center text-gray-500 mb-8">
           <span>{post.date}</span>
@@ -40,6 +32,13 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
           <span className="mx-2">·</span>
           <span>{post.readTime}</span>
         </div>
+        <div className={"mx-auto rounded-tl-[30px] rounded-tr-[30px] object-fill py-4 pb-4"} >
+          <iframe
+          id="game"
+          src={post.url}
+          style={{border:'10px solid #fff', top: '0px', left: '0px',width: '100%', height: '500px'}} loading="lazy"
+          ></iframe>
+        </div>  
         <div dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
       </article>
 
