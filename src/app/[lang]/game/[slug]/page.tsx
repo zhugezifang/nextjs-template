@@ -23,17 +23,29 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
   return (
     <main className="container">
 
-      
+     <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                document.addEventListener('DOMContentLoaded', () => {
+                  const button = document.getElementById('myButton');
+                  button.addEventListener('click', () => {
+                    document.getElementById("game").requestFullscreen();
+                  });
+                });
+              `,
+            }}
+      />
 
-      <div className={"w-[100%] mx-auto rounded-tl-[30px] rounded-tr-[30px] object-fill"} >
-
-        <iframe
-        id="game"
-        src={post.url}
-        style={{border:'10px solid #fff', top: '0px', left: '0px',width: '100%', height: '500px'}} loading="lazy"
-        ></iframe>
-
+      <div className="w-full max-w-5xl mx-auto bg-white dark:bg-gray-900 rounded-lg shadow-lg overflow-hidden relative p-6">
+                      <div className="absolute top-4 right-4 z-10 flex gap-2">
+                      <button id="myButton" className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded text-sm" title="Fullscreen">Fullscreen</button>
+                      </div>
+                      <iframe id="game" src={post.url}
+                      style={{border:'10px solid #fff', top: '0px', left: '0px',width: '100%', height: '500px'}} loading="lazy"
+                      ></iframe>
       </div>
+
+      
 
       <article className="prose prose-gray dark:prose-invert mx-auto py-4">
         <h1 className="mb-4">{post.title}</h1>
