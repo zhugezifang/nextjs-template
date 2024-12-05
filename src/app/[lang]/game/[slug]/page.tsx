@@ -24,15 +24,8 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
     <main className="container">
 
       <article className="prose-gray dark:prose-invert mx-auto">
-        <h1 className="mb-4">{post.title}</h1>
-        <div className="flex items-center text-gray-500 mb-8">
-          <span>{post.date}</span>
-          <span className="mx-2">·</span>
-          <span>{post.author}</span>
-          <span className="mx-2">·</span>
-          <span>{post.readTime}</span>
-        </div>
-        <div className={"mx-auto rounded-tl-[30px] rounded-tr-[30px] object-fill py-4 pb-4"} >
+        <h1 className="mb-4 text-center text-3xl font-bold">{post.title}</h1>
+        <div className={"mx-auto rounded-tl-[30px] rounded-tr-[30px] object-fill py-4 mb-4"} >
           <iframe
           id="game"
           src={post.url}
