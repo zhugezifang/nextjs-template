@@ -6,6 +6,7 @@ import { getDictionary } from '@/i18n/get-dictionary'
 import type { Locale } from '@/i18n/config'
 import type { Metadata } from 'next'
 import { ScrollToTop } from "@/components/scroll-to-top"
+import {Game} from  "@/components/game"
 
 export const runtime = 'edge'
 
@@ -23,15 +24,10 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
   return (
     <main className="container">
 
+
       <article className="prose-gray dark:prose-invert mx-auto">
         <h1 className="mb-4 text-center text-3xl font-bold">{post.title}</h1>
-        <div className={"mx-auto rounded-tl-[30px] rounded-tr-[30px] object-fill py-4 mb-4"} >
-          <iframe
-          id="game"
-          src={post.url}
-          style={{border:'10px solid #fff', top: '0px', left: '0px',width: '100%', height: '500px'}} loading="lazy"
-          ></iframe>
-        </div>  
+        <Game url="https://supermariogame.org/mario.html"></Game>
         <div dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
       </article>
 
