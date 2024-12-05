@@ -1,6 +1,6 @@
 ---
-title: "battle-city"
-description: "学习如何开发你的第一个Chrome插件-中文"
+title: "坦克大战网页版"
+description: "坦克大战网页版"
 date: "2024-03-15"
 author: "张三1"
 readTime: "10分钟阅读"

@@ -1,6 +1,6 @@
 ---
-title: "Chrome插件开发入门指南--中文"
-description: "学习如何开发你的第一个Chrome插件-中文"
+title: "超级马里奥在线"
+description: "超级马里奥在线"
 date: "2024-03-15"
 author: "张三1"
 readTime: "10分钟阅读"
