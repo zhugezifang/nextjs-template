@@ -23,8 +23,19 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
   return (
     <main className="container">
 
+      
+
       <div className={"w-[100%] mx-auto rounded-tl-[30px] rounded-tr-[30px] object-fill"} >
-           <iframe src={post.url} allow="autoplay"  style={{border:'10px solid #fff', top: '0px', left: '0px',width: '100%', height: '500px'}}></iframe>
+
+        <iframe
+        id="game"
+        src={post.url}
+        style={{border:'10px solid #fff', top: '0px', left: '0px',width: '100%', height: '500px'}} allowfullscreen loading="lazy"
+        sandbox="allow-scripts allow-same-origin"
+        referrerpolicy="no-referrer-when-downgrade"
+        tabindex="0"
+        ></iframe>
+
       </div>
 
       <article className="prose prose-gray dark:prose-invert mx-auto py-4">
