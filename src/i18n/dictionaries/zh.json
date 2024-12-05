@@ -140,7 +140,15 @@
            "date": "2024-03-15",
            "readTime": "10分钟阅读",
            "slug": "chrome-extension-development-guide"
-         }
+         },
+         {
+          "id": 2,
+          "title": "battle-city--中文",
+          "description": "学习如何开发你的第一个Chrome插件",
+          "date": "2024-03-15",
+          "readTime": "10分钟阅读",
+          "slug": "battle-city"
+        }
        ]
   },
   "auth": {
