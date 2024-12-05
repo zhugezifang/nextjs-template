@@ -38,7 +38,7 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
         <div dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
       </article>
 
-      <Link href={`/${params.lang}/blog`}>
+      <Link href={`/${params.lang}/game`}>
         <Button variant="ghost" className="mb-8">
           <ArrowLeft className="mr-2 h-4 w-4" />
           {dict.blog.backToList}
@@ -70,7 +70,7 @@ export async function generateMetadata({
     openGraph: {
       type: 'article',
       locale: params.lang,
-      url: `${url}/${params.lang}/blog/${params.slug}`,
+      url: `${url}/${params.lang}/game/${params.slug}`,
       title: post.title,
       description: post.description || dict.blog.description,
       publishedTime: post.date,
@@ -82,10 +82,10 @@ export async function generateMetadata({
       description: post.description || dict.blog.description,
     },
     alternates: {
-      canonical: `${url}/${params.lang}/blog/${params.slug}`,
+      canonical: `${url}/${params.lang}/game/${params.slug}`,
       languages: {
-        'en-US': `${url}/en-US/blog/${params.slug}`,
-        'zh-CN': `${url}/zh-CN/blog/${params.slug}`,
+        'en-US': `${url}/en-US/game/${params.slug}`,
+        'zh-CN': `${url}/zh-CN/game/${params.slug}`,
       },
     },
   }
