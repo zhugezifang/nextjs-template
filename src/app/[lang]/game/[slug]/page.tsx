@@ -23,7 +23,7 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
   return (
     <main className="container">
 
-      <article className="prose prose-gray dark:prose-invert mx-auto">
+      <article className="prose-gray dark:prose-invert mx-auto">
         <h1 className="mb-4">{post.title}</h1>
         <div className="flex items-center text-gray-500 mb-8">
           <span>{post.date}</span>
