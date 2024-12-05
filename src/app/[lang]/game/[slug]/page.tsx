@@ -30,10 +30,7 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
         <iframe
         id="game"
         src={post.url}
-        style={{border:'10px solid #fff', top: '0px', left: '0px',width: '100%', height: '500px'}} allowfullscreen loading="lazy"
-        sandbox="allow-scripts allow-same-origin"
-        referrerpolicy="no-referrer-when-downgrade"
-        tabindex="0"
+        style={{border:'10px solid #fff', top: '0px', left: '0px',width: '100%', height: '500px'}} loading="lazy"
         ></iframe>
 
       </div>
