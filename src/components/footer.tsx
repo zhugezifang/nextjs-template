@@ -22,16 +22,10 @@ export default async function Footer({
       { name: dict.footer.links.xhs, href: `https://okjk.co/re05p2` },
     ],
     [dict.footer.support]: [
-      { name: dict.footer.links.help, href: `/${lang}/help` },
-      { name: dict.footer.links.contact, href: `/${lang}/contact` },
-      { name: dict.footer.links.feedback, href: `/${lang}/feedback` },
-      { name: dict.footer.links.status, href: `/${lang}/status` },
     ],
     [dict.footer.company]: [
-      { name: dict.footer.links.about, href: `/${lang}/about` },
       { name: dict.footer.links.terms, href: `/${lang}/terms` },
       { name: dict.footer.links.privacy, href: `/${lang}/privacy` },
-      { name: dict.footer.links.jobs, href: `/${lang}/jobs` },
     ],
   }
 
