@@ -11,7 +11,7 @@ url: "https://dogballs.github.io/cattle-bity/"
 
 Battle City, a classic tank combat game developed and published by Namco in 1985 for the Family Computer (NES), has captivated gamers for generations. As a sequel to the 1980 game "Tank Battalion" and a precursor to the 1991 game "Tank Force," Battle City holds significant historical importance in the evolution of video games. This article delves into the various aspects of Battle City, including its online presence, NES room experiences, and its status as a classic game.
 
-![Battle City](images/Battle-City.jpg)
+![Battle City](/images/Battle-City.jpg)
 
 ## Tank 1990 Online: A Modern Twist on a Classic
 

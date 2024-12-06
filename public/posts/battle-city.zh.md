@@ -10,7 +10,7 @@ url: "https://dogballs.github.io/cattle-bity/"
 ## 引言
 对于许多80后和90后的玩家来说，《90坦克大战》不仅仅是一款游戏，它承载了一代人的回忆。从最初的红白机（FC）到如今的移动平台，这款游戏经历了无数次的迭代与重生。本文将带您回顾《坦克大战1990》的经典魅力，探索网页版、手机版以及其他版本的游戏特色，并揭秘一些鲜为人知的游戏密技。
 
-![Battle City](images/Battle-City.jpg)
+![Battle City](/images/Battle-City.jpg)
 
 ## 坦克大战的历史渊源
 红白机时代的传奇——坦克大战1990
