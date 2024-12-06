@@ -77,6 +77,24 @@ export default async function RootLayout({
   
   return (
     <html lang={lang} suppressHydrationWarning>
+      <head>
+      <script
+                  async
+                  src={`https://www.googletagmanager.com/gtag/js?id=G-6KE37QNQ4C`}
+      />
+      <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-6KE37QNQ4C');
+            `,
+          }}
+      />
+      <script async src='https://platform-api.sharethis.com/js/sharethis.js#property=6714ad2d10ca00001277ac7d&product=sop'>
+      </script> 
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
