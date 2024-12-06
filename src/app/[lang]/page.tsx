@@ -12,13 +12,12 @@ export default async function Home({
   params: { lang: Locale }
 }) {
   const dict = await getDictionary(lang)
+  const hero = await Hero({ lang });
 
   return (
     <main className="flex flex-col items-center w-full">
 
-      <Hero lang={lang} />
-      <Features lang={lang} />
-      <FAQ lang={lang} />
+      {hero}
       
       <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
