@@ -1,5 +1,5 @@
 ---
-title: "超级马里奥在线"
+title: "Super Mario Bros Online"
 description: "Super Mario Bros Online"
 date: "2024-03-15"
 author: "张三1"
