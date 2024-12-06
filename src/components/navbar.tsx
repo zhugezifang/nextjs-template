@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Chrome } from "lucide-react"
+//import { Chrome } from "lucide-react"
 import { getDictionary } from "@/i18n/get-dictionary"
 import type { Locale } from "@/i18n/config"
 import { NavbarActions } from "./navbar-actions"
@@ -17,7 +17,6 @@ export default async function Navbar({
       <div className="container flex h-14 items-center">
         <div className="mr-4 flex items-center space-x-2">
           <Link href={`/${lang}`} className="flex items-center space-x-2">
-            <Chrome className="h-6 w-6" />
             <span className="text-xl font-bold">{dict.common.brand}</span>
           </Link>
         </div>

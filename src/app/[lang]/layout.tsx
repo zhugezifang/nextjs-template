@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../globals.css";
-import Navbar from "@/components/navbar";
+//import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider";
 import { locales } from '@/i18n/config'
@@ -86,7 +86,7 @@ export default async function RootLayout({
             <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/80 to-transparent pointer-events-none" />
             <div className="absolute inset-0 bg-gradient-radial-t from-primary/20 to-transparent pointer-events-none" />
             <div className="absolute inset-0 bg-gradient-radial-b from-primary/20 to-transparent pointer-events-none" />
-            <Navbar lang={lang} />
+            {/*<Navbar lang={lang} />*/}
             <main className="relative flex-1">
               <BreadcrumbWrapper lang={lang} dict={dict} />
               {children}
