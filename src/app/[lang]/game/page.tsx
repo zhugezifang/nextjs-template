@@ -61,8 +61,8 @@ export async function generateMetadata({
     alternates: {
       canonical: `${url}/${lang}/game`,
       languages: {
-        'en-US': `${url}/en-US/game`,
-        'zh-CN': `${url}/zh-CN/game`,
+        'en': `${url}/en/game`,
+        'zh': `${url}/zh/game`,
       },
     },
     openGraph: {

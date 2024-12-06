@@ -129,15 +129,15 @@
   },
   "blog": {
     "backToList": "返回博客列表",
-    "title": "博客文章",
-    "description": "分享Chrome插件开发经验和网页浏览技巧",
+    "title": "所有游戏",
+    "description": "在线网页游戏",
     "loadMore": "加载更多",
     "posts": [
          {
            "id": 1,
            "title": "超级马里奥",
            "description": "超级马里奥",
-           "img":"images/2146a.png",
+           "img":"images/supermario.png",
            "date": "2024-03-15",
            "readTime": "10分钟阅读",
            "slug": "supermario-online"
@@ -146,7 +146,7 @@
           "id": 2,
           "title": "坦克大战",
           "description": "坦克大战",
-          "img":"images/timg.png",
+          "img":"images/battle-city.png",
           "date": "2024-03-15",
           "readTime": "10分钟阅读",
           "slug": "battle-city"

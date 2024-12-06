@@ -70,8 +70,8 @@ export async function generateMetadata({
     alternates: {
       canonical: `${url}/${params.lang}/game/${params.slug}`,
       languages: {
-        'en-US': `${url}/en-US/game/${params.slug}`,
-        'zh-CN': `${url}/zh-CN/game/${params.slug}`,
+        'en': `${url}/en/game/${params.slug}`,
+        'zh': `${url}/zh/game/${params.slug}`,
       },
     },
   }

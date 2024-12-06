@@ -23,7 +23,7 @@ export default async function Home({
       <div className="container py-10 px-4">
           
           <div className="flex items-center justify-between mb-6">
-            <h1 className="text-3xl font-bold">热门FC</h1>
+            <h1 className="text-3xl font-bold">怀旧游戏</h1>
             <a href="#" className="text-sm text-blue-500 hover:underline">更多 &gt;</a>
           </div>
 
