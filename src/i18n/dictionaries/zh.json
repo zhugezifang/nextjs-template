@@ -135,16 +135,18 @@
     "posts": [
          {
            "id": 1,
-           "title": "超级马里奥在线",
-           "description": "超级马里奥在线玩",
+           "title": "超级马里奥",
+           "description": "超级马里奥",
+           "img":"images/2146a.png",
            "date": "2024-03-15",
            "readTime": "10分钟阅读",
            "slug": "supermario-online"
          },
          {
           "id": 2,
-          "title": "坦克大战网页版",
-          "description": "坦克大战网页版",
+          "title": "坦克大战",
+          "description": "坦克大战",
+          "img":"images/timg.png",
           "date": "2024-03-15",
           "readTime": "10分钟阅读",
           "slug": "battle-city"

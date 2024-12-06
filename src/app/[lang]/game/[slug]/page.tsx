@@ -30,12 +30,6 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
         <div className="mt-4" dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
       </article>
 
-      <Link href={`/${params.lang}/game`}>
-        <Button variant="ghost" className="mb-8">
-          <ArrowLeft className="mr-2 h-4 w-4" />
-          {dict.blog.backToList}
-        </Button>
-      </Link>
       <ScrollToTop />
     </main>
   )

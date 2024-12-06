@@ -28,8 +28,8 @@ export async function generateMetadata({ params }: { params: { lang: Locale } })
     alternates: {
       canonical: `${url}/${params.lang}`,
       languages: {
-        'en-US': `${url}/en-US`,
-        'zh-CN': `${url}/zh-CN`,
+        'en': `${url}/en`,
+        'zh': `${url}/zh`,
       },
     },
     openGraph: {

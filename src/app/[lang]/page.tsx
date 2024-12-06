@@ -32,7 +32,7 @@ export default async function Home({
               <a href={`/${lang}/game/${post.slug}`}>
                 <div className="text-center">
                   <div className="relative w-full h-32 bg-black rounded-lg overflow-hidden">
-                    <img src="" alt={post.title} className="object-cover w-full h-full"/>
+                    <img src={post.img} alt={post.title} className="object-cover w-full h-full"/>
                   </div>
                   <p className="mt-2 text-sm">{post.title}</p>
                 </div>
