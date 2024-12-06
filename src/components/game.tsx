@@ -15,7 +15,7 @@ export function Game({
   };
 
   return (
-    <div className="w-full max-w-5xl mx-auto bg-white dark:bg-gray-900 rounded-lg shadow-lg overflow-hidden relative">
+    <div className="w-full mx-auto bg-white dark:bg-gray-900 rounded-lg shadow-lg overflow-hidden relative">
       <div className="absolute top-4 right-4 z-10 flex gap-2">
       <button onClick={handleClick} className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded text-sm" title="Fullscreen">FullScreen</button>
       </div>
