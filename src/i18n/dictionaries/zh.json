@@ -10,6 +10,10 @@
     "download": "下载插件"
   },
   "home": {
+    "game":{
+      "title":"怀旧游戏",
+      "more":"更多"
+    },
     "hero": {
       "title": "让浏览更高效",
       "description": "我们的 Chrome 插件帮助您更好地管理标签页、提升工作效率",

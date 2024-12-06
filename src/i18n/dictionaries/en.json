@@ -10,6 +10,10 @@
     "profile": "Profile"
   },
   "home": {
+    "game":{
+      "title":"old game",
+      "more":"more"
+    },
     "hero": {
       "title": "Browse More Efficiently",
       "description": "Our Chrome extension helps you better manage tabs and improve productivity",
