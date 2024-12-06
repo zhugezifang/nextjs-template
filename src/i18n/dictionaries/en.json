@@ -63,7 +63,7 @@
     "keywords": "Chrome Extension, Tab Management, Productivity Tools, Browser Extensions"
   },
   "common": {
-    "brand": "Chrome Extension",
+    "brand": "Online Game",
     "loading": "Loading..."
   },
   "features": {
@@ -129,18 +129,28 @@
   },
   "blog": {
     "backToList": "Back to Blog List",
-    "title": "Blog Posts",
-    "description": "Sharing Chrome extension development experiences and browsing tips",
+    "title": "All Online Game",
+    "description": "All Online Game",
     "loadMore": "Load More",
     "posts": [
-         {
-           "id": 1,
-           "title": "Chrome Extension Development Guide -- English",
-           "description": "Learn how to develop your first Chrome extension",
-           "date": "2024-03-15",
-           "readTime": "10 min read",
-           "slug": "chrome-extension-development-guide"
-         }
+          {
+            "id": 1,
+            "title": "Super Mario",
+            "description": "Super Mario",
+            "img":"images/supermario.png",
+            "date": "2024-03-15",
+            "readTime": "10分钟阅读",
+            "slug": "supermario-online"
+          },
+          {
+          "id": 2,
+          "title": "Battle City",
+          "description": "Battle City",
+          "img":"images/battle-city.png",
+          "date": "2024-03-15",
+          "readTime": "10分钟阅读",
+          "slug": "battle-city"
+        }
        ]
   },
   "auth": {
