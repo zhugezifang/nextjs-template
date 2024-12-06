@@ -4,7 +4,7 @@ description: "超级马里奥在线"
 date: "2024-03-15"
 author: "张三1"
 readTime: "10分钟阅读"
-url: "https://supermariogame.org/mario.html"
+url: "https://supermarioemulator.com/game.php"
 ---
 
 ## 如何玩耍

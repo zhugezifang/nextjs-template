@@ -4,7 +4,7 @@ description: "Super Mario Bros Online"
 date: "2024-03-15"
 author: "张三1"
 readTime: "10分钟阅读"
-url: "https://supermariogame.org/mario.html"
+url: "https://supermarioemulator.com/game.php"
 ---
 
 ## How to play Super Mario Bros
