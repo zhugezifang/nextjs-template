@@ -24,7 +24,7 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
   return (
     <main className="container">
 
-      <article className="prose-gray dark:prose-invert mx-auto">
+      <article className="prose prose-gray dark:prose-invert mx-auto">
         <h1 className="mb-4 text-center text-3xl font-bold">{post.title}</h1>
         <Game url={post.url}></Game>
         <div className="mt-4" dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
