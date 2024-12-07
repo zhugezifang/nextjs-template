@@ -16,10 +16,10 @@ export default async function Footer({
       
     ],
     [dict.footer.social]: [
-      { name: dict.footer.links.twitter, href: `https://x.com/freeourdays` },
-      { name: dict.footer.links.github, href: `https://github.com/jiweiyeah` },
-      { name: dict.footer.links.jike, href: `https://okjk.co/re05p2` },
-      { name: dict.footer.links.xhs, href: `https://okjk.co/re05p2` },
+      { name: dict.footer.links.twitter, href: `` },
+      { name: dict.footer.links.github, href: `` },
+      { name: dict.footer.links.jike, href: `` },
+      { name: dict.footer.links.xhs, href: `` },
     ],
     [dict.footer.support]: [
     ],
