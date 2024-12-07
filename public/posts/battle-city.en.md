@@ -4,7 +4,7 @@ description: "Battle City Online"
 date: "2024-03-15"
 author: "张三1"
 readTime: "10分钟阅读"
-url: "https://dogballs.github.io/cattle-bity/"
+url: "https://retromania.gg/games/nes/tank-1990/iframe"
 ---
 
 ## Introduction
