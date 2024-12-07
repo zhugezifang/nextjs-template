@@ -22,8 +22,8 @@ url: "https://supermarioemulator.com/game.php"
 
 超级马里奥系列游戏现在可以通过多种方式在线体验。对于想要在网页上直接玩超级马里奥的玩家，有几个不错的选择：
 
-- **超级马里奥网页版**：例如，[PlayMario.org](https://www.playmario.org/) 提供了一个免费的HTML5复刻版本，包括原始的32个关卡以及超过一打的自定义模组[^16^]。
-- **超级马里奥在线版**：[CrazyGamesPoki](https://crazygames-poki.com/zh-cn/arcade/super-mario-classic) 提供了超级马里奥经典游戏的在线版本，可以在计算机和移动设备上免费玩，无需下载或安装[^20^]。
+- **超级马里奥网页版**：例如，[8090-game](https://8090-game.online) 提供了一个免费的HTML5复刻版本，包括原始的32个关卡以及超过一打的自定义模组[^16^]。
+- **超级马里奥在线版**：[8090-game](https://8090-game.online) 提供了超级马里奥经典游戏的在线版本，可以在计算机和移动设备上免费玩，无需下载或安装[^20^]。
 
 ## 如何下载超级马里奥
 
