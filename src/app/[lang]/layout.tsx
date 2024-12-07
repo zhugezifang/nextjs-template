@@ -78,6 +78,7 @@ export default async function RootLayout({
   return (
     <html lang={lang} suppressHydrationWarning>
       <head>
+      <meta name="google-site-verification" content="UuFT61A3zra1kfyVyhHqNZffLbgbBw_OdgNpWNH0TnI" />
       <script
                   async
                   src={`https://www.googletagmanager.com/gtag/js?id=G-1E3XP768JM`}
