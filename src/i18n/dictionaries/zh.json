@@ -63,7 +63,7 @@
   },
   "metadata": {
     "title": "在线网页游戏",
-    "description": "在线网页游戏",
+    "description": "在线网页游戏提供了各种经典游戏，包括超级玛丽、90坦克、红白机、小霸王、街机等经典游戏。",
     "keywords": ""
   },
   "common": {
@@ -134,7 +134,7 @@
   "blog": {
     "backToList": "返回博客列表",
     "title": "所有游戏",
-    "description": "在线网页游戏提供了各种经典游戏，包括超级玛丽、90坦克、红白机、小霸王、街机等经典游戏。",
+    "description": "在线网页游戏",
     "loadMore": "加载更多",
     "posts": [
          {
