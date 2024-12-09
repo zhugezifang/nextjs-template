@@ -1,6 +1,6 @@
 ---
 title: "Battle City Online"
-description: "Battle City Online"
+description: "Battle City Online is a classic multiplayer tank warfare game developed by Namco in 1985. Players control tanks to destroy enemies and protect their base across various levels. With simple yet addictive gameplay, it offers both single-player and multiplayer modes for intense strategic action."
 date: "2024-03-15"
 author: "张三1"
 readTime: "10分钟阅读"

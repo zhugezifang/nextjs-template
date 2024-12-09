@@ -1,6 +1,6 @@
 ---
 title: "Super Mario Bros Online"
-description: "Super Mario Bros Online"
+description: "Super Mario Bros Online is a digital rendition of the iconic platform game where you guide Mario or Luigi through a series of levels to save Princess Peach. Featuring jumping, power-ups, and enemy stomping, it retains the charm of the original while offering online playability for a modern gaming experience."
 date: "2024-03-15"
 author: "张三1"
 readTime: "10分钟阅读"
