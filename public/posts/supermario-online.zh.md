@@ -16,7 +16,7 @@ url: "https://supermariogame.org/mario.html"
 
 超级马里奥（Super Mario）是由任天堂开发并发行的一系列经典电子游戏。从最初的《超级马里奥兄弟》到最新的《超级马里奥奥德赛》，这个系列已经成为了全球文化的一部分，深受各年龄层玩家的喜爱。
 
-![超级马里奥](https://eloutput.com/wp-content/uploads/2022/03/Super-Mario-Bros-1985.jpg.webp)
+![超级马里奥](https://eloutput.com/wp-content/uploads/2022/03/Super-Mario-Bros-1985.jpg.webp#pic_center)
 
 ## 超级马里奥小游戏在线体验
 

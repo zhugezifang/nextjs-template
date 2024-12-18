@@ -14,7 +14,7 @@ Use Shift/CTRL to Fire/Sprint. P to pause. M to mute.
 ## Super Mario Bros Introduction
 Super Mario Bros. is a timeless classic that has been able to defeat time and space, turning itself into a cultural icon in the gaming world. From its humble beginnings on the Nintendo Entertainment System in the 1980s to its current digital reincarnations, Mario's adventures continue to enchant players of all ages. In this article, we'll look at the different ways you can play Super Mario Bros. online, unblocked, full screen, and take a closer look at the rich cast of characters in the game.
 
-![Super Mario Bros](https://eloutput.com/wp-content/uploads/2022/03/Super-Mario-Bros-1985.jpg.webp)
+![Super Mario Bros](https://eloutput.com/wp-content/uploads/2022/03/Super-Mario-Bros-1985.jpg.webp#pic_center)
 
 ## Super Mario Bros Online
 Those interested in this classic game, or having never played it before, can go through it online on various websites. One of them is Arcade Spot, which has made the game available in your browser for free [^14^]. This version belongs to the categories of Retro, Platform, NES, and Mario, and it lets you play using your keyboard arrow keys for directions, 'Z' for button A, 'X' for button B, 'Enter' for start, and 'Space' for select. This is an online high-quality version in which you can run, jump, and glide all over again in modern, major web browsers very comfortably.

@@ -22,7 +22,7 @@ url: "https://www.retrogames.cc/embed/8933-knights-of-valour-plus-sangoku-senki-
 - **角色扮演**：玩家可以选择不同的三国武将，每个武将都有独特的技能和战斗风格。
 - **策略布局**：游戏中的战斗不仅仅是武力的较量，更需要玩家运用策略，合理布局兵力。
 
-![三国战纪](/images/knights-of-valour-game.jpg)
+![三国战纪](/images/knights-of-valour-game.jpg#pic_center)
 
 ### 如何在线玩
 

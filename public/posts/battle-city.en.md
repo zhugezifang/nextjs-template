@@ -11,7 +11,7 @@ url: "https://retromania.gg/games/nes/tank-1990/iframe"
 
 Battle City is a timeless, classic tank combat video game that was developed and published by Namco in 1985 for the Family Computer. It has grown up with whole generations of gamers worldwide. As a sequel to the 1980 game "Tank Battalion" and precursor to the 1991 game "Tank Force," it is of great historical importance for the evolution of video games. It covers various aspects of Battle City: its online version, NES room experiences, and classic status.
 
-![Battle City](/images/Battle-City.jpg)
+![Battle City](/images/Battle-City.jpg#pic_center)
 
 ## Tank 1990 Online: A Modern Twist on a Classic
 

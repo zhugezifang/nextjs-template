@@ -22,7 +22,7 @@ The online version of "Knights of Valour" allows players to relive the glory day
 - **Classic Gameplay**: Enjoy the same 2D beat-em up style that fans have loved since the beginning, with a simple goal: defeat all enemies until you reach the boss.
 - **Character Selection**: Play as one of a cast of characters based on the "Three Kingdoms" era, each with their own special abilities and ways of play.
 
-![三国战纪](/images/knights-of-valour-game.jpg)
+![三国战纪](/images/knights-of-valour-game.jpg#pic_center)
 
 ## Knights of Valour Room
 
