@@ -36,7 +36,7 @@ export default async function Footer({
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category} className="space-y-3">
-              <h4 className="text-base font-semibold">{category}</h4>
+              <span className="text-base font-semibold">{category}</span>
               <ul className="space-y-2">
                 {links.map((link) => (
                   <li key={link.name}>
