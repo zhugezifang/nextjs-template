@@ -4,7 +4,7 @@ description: "Super Mario Bros Online is a digital rendition of the iconic platf
 date: "2024-03-15"
 author: "张三1"
 readTime: "10分钟阅读"
-url: "https://supermariogame.org/mario.html"
+url: "https://www.miniplay.com/embed/super-mario-bros"
 ---
 
 ## How to Play Super Mario Bros
