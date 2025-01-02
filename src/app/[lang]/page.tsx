@@ -14,8 +14,8 @@ export default async function Home({
   params: { lang: Locale }
 }) {
   const dict = await getDictionary(lang)
-  const posts = dict.blog.posts
-
+  const tempPosts = dict.blog.posts
+  const posts = tempPosts.sort((a, b) => b.id - a.id);  // 按 `id` 降序排序
 
   return (
     <main className="flex flex-col items-center w-full">

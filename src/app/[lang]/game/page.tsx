@@ -9,7 +9,8 @@ export const runtime = 'edge'
 
 export default async function BlogPage({ params: { lang } }: { params: { lang: Locale } }) {
   const dict = await getDictionary(lang)
-  const posts = dict.blog.posts
+  const tempPosts = dict.blog.posts
+  const posts = tempPosts.sort((a, b) => b.id - a.id);  // 按 `id` 降序排序
 
   return (
     <main className="container py-12 md:py-24">
