@@ -181,8 +181,17 @@
        "date": "2025-01-02",
        "readTime": "10分钟阅读",
        "slug": "contra-game-online"
-     }
-       ]
+     },
+     {
+      "id": 6,
+      "title": "Mitsume ga Tooru(NES)",
+      "description": "Mitsume ga Tooru(NES)",
+      "img":"images/Mitsume-ga-Tooru.png",
+      "date": "2025-01-02",
+      "readTime": "10分钟阅读",
+      "slug": "mitsume-ga-tooru-japan"
+    }
+    ]
   },
   "auth": {
     "signin": {
