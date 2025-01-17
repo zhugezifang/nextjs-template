@@ -190,6 +190,15 @@
       "date": "2025-01-02",
       "readTime": "10分钟阅读",
       "slug": "mitsume-ga-tooru-japan"
+    },
+     {
+      "id": 7,
+      "title": "Double Dragon(NES)",
+      "description": "Double Dragon(NES)",
+      "img":"images/Double-Dragon.jpg",
+      "date": "2025-01-17",
+      "readTime": "10分钟阅读",
+      "slug": "double-dragon-2"
     }
     ]
   },

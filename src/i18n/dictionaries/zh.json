@@ -190,6 +190,15 @@
       "date": "2025-01-02",
       "readTime": "10分钟阅读",
       "slug": "mitsume-ga-tooru-japan"
+    },
+    {
+     "id": 7,
+     "title": "双截龙",
+     "description": "双截龙",
+     "img":"images/Double-Dragon.jpg",
+     "date": "2025-01-17",
+     "readTime": "10分钟阅读",
+     "slug": "double-dragon-2"
     }
        ]
   },
