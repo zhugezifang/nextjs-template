@@ -199,7 +199,16 @@
      "date": "2025-01-17",
      "readTime": "10分钟阅读",
      "slug": "double-dragon-2"
-    }
+    },
+    {
+     "id": 8,
+     "title": "炸弹人",
+     "description": "炸弹人",
+     "img":"images/bomberman.jpg",
+     "date": "2025-02-08",
+     "readTime": "10分钟阅读",
+     "slug": "Bomberman"
+   }
        ]
   },
   "auth": {
