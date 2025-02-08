@@ -208,7 +208,16 @@
      "date": "2025-02-08",
      "readTime": "10分钟阅读",
      "slug": "bomberman"
-   }
+   },
+   {
+    "id": 9,
+    "title": "神庙逃亡",
+    "description": "神庙逃亡",
+    "img":"images/Temple-Run.jpg",
+    "date": "2025-02-08",
+    "readTime": "10分钟阅读",
+    "slug": "Temple-Run"
+  }
        ]
   },
   "auth": {

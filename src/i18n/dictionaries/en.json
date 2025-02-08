@@ -210,6 +210,16 @@
       "readTime": "10分钟阅读",
       "slug": "bomberman"
     }
+    ,
+     {
+      "id": 9,
+      "title": "Temple Run",
+      "description": "Temple Run",
+      "img":"images/Temple-Run.jpg",
+      "date": "2025-02-08",
+      "readTime": "10分钟阅读",
+      "slug": "Temple-Run"
+    }
     ]
   },
   "auth": {
