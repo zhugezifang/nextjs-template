@@ -235,6 +235,15 @@
   "date": "2025-02-16",
   "readTime": "10分钟阅读",
   "slug": "The-Legend-of-Kage"
+},
+{
+ "id": 12,
+ "title": "冒险岛",
+ "description": "冒险岛",
+ "img":"images/hudsons-adventure-island.jpg",
+ "date": "2025-02-22",
+ "readTime": "10分钟阅读",
+ "slug": "hudsons-adventure-island"
 }
        ]
   },
