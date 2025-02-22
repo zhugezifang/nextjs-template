@@ -1,6 +1,6 @@
 ---
 title: "Hudson’s Adventure Island(NES) Free Play Online"
-description: "冒险岛是一款经典的红白机游戏，也被称为“高桥名人的冒险”，是许多玩家最初接触的游戏之一。这款游戏的玩法简单而又有趣，玩家需要扮演一个冒险者，穿越各种地形，挑战各种难度的关卡，最终击败魔王，拯救公主。"
+description: "Hudson's Adventure Island, also called Takahashi Meijin no Bōken Jima (高橋名人の冒険島) in Japan and simply Adventure Island in other regions, is a classic side-scrolling platform game developed by Hudson Soft. It debuted in Japan for the Famicom and MSX on September 12, 1986"
 date: "2025-02-22"
 author: "张三1"
 readTime: "10分钟阅读"
