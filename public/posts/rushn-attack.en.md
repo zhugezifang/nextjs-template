@@ -11,7 +11,7 @@ url: "https://retromania.gg/games/nes/rushn-attack/iframe"
 
 Rush'n Attack Old Game, also known as Green Russian Attack game, is a classic NES game developed by Konami and released in 1987. The game is well-known for its unique gameplay, rich backstory, and well-designed levels.
 
-![绿色兵团](https://pica.zhimg.com/80/v2-3046f7414cd49125fb4edff2ab41f91f_1440w.webp)
+![Rush'n Attack](https://pica.zhimg.com/80/v2-3046f7414cd49125fb4edff2ab41f91f_1440w.webp)
 
 ## Background and Features
 
