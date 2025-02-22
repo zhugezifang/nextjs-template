@@ -11,7 +11,7 @@ url: "https://retromania.gg/games/nes/hudsons-adventure-island/iframe"
 
 Hudson's Adventure Island, also called Takahashi Meijin no Bōken Jima (高橋名人の冒険島) in Japan and simply Adventure Island in other regions, is a classic side-scrolling platform game developed by Hudson Soft. It debuted in Japan for the Famicom and MSX on September 12, 1986. The game later made its way to North America in 1988 for the Nintendo Entertainment System (NES) and to the PAL region in 1992.
 
-![Hudson's Adventure Island](https://i1.hdslb.com/bfs/new_dyn/30a0c6303f585e1245234e672c887597405762212.jpg)
+![Hudson's Adventure Island](/images/maoxiandao.jpg)
 
 Adventure Island is a reimagining of the arcade title Wonder Boy, originally created by Escape for Sega. Although Adventure Island drew inspiration from Wonder Boy, it evolved into a separate series with its own sequels that bore no direct ties to the Wonder Boy franchise.
 

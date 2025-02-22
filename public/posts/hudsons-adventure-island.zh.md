@@ -11,7 +11,7 @@ url: "https://retromania.gg/games/nes/hudsons-adventure-island/iframe"
 
 冒险岛是一款经典的红白机游戏，也被称为“高桥名人的冒险”，是许多玩家最初接触的游戏之一。这款游戏的玩法简单而又有趣，玩家需要扮演一个冒险者，穿越各种地形，挑战各种难度的关卡，最终击败魔王，拯救公主。
 
-![冒险岛](https://i1.hdslb.com/bfs/new_dyn/30a0c6303f585e1245234e672c887597405762212.jpg)
+![冒险岛](/images/maoxiandao.jpg)
 
 游戏特色经典画面与音乐：
 
