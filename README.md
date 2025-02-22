@@ -1,1 +1,2 @@
-https://gamemonetize.co/game/pkyyuilfrqkcdnmrxsg60j22ypk0peje/
+
+https://retromania.gg/games/nes/lode-runner
