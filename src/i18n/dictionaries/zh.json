@@ -244,6 +244,15 @@
  "date": "2025-02-22",
  "readTime": "10分钟阅读",
  "slug": "hudsons-adventure-island"
+},
+{
+ "id": 13,
+ "title": "绿色兵团",
+ "description": "绿色兵团",
+ "img":"images/rushn-attack.jpg",
+ "date": "2025-02-16",
+ "readTime": "10分钟阅读",
+ "slug": "rushn-attack"
 }
        ]
   },

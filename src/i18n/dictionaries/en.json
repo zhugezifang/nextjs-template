@@ -248,6 +248,16 @@
     "readTime": "10分钟阅读",
     "slug": "hudsons-adventure-island"
   }
+  ,
+   {
+    "id": 23,
+    "title": "Rushn Attack",
+    "description": "rushn attack",
+    "img":"images/rushn-attack.jpg",
+    "date": "2025-02-16",
+    "readTime": "10分钟阅读",
+    "slug": "rushn-attack"
+  }
     ]
   },
   "auth": {
