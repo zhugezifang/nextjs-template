@@ -1,6 +1,7 @@
 ---
 title: "双截龙在线玩"
-description: "BDouble Dragon NES Game is a side-scrolling beat 'em up video game developed by Technōs Japan and originally released as an arcade game in 1988.you can play it online now."
+description: "
+《双截龙》（日语：ダブルドラゴンII ザ・リベンジ，英语：Double Dragon II The Revenge）是由Technōs Japan在1988年上市的清版动作类型街机游戏，后来陆续移植到红白机等平台。"
 date: "2025-01-17"
 author: "张三1"
 readTime: "10分钟阅读"

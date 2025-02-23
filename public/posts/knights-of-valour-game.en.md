@@ -1,6 +1,6 @@
 ---
 title: "Knights of Valour Game Online-Sangoku Senki"
-description: "90坦克大战网页版是一款经典的射击小游戏，玩家可以操控坦克，通过射击消灭敌方坦克，同时保护己方基地。游戏操作简单，支持单人或双人模式。"
+description: "Few titles have deeply branded themselves in the player's minds within the domains of classic arcade games such as "Knights of Valour." This arcade side-scrolling beat-em-up game developed by IGS and sold on an arcade in 1999 has survived the test of time and systems to become the most loved one among gamers worldwide. "
 date: "2024-12-13"
 author: "张三1"
 readTime: "10分钟阅读"

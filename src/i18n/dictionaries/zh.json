@@ -253,6 +253,15 @@
  "date": "2025-02-16",
  "readTime": "10分钟阅读",
  "slug": "rushn-attack"
+},
+{
+ "id": 14,
+ "title": "淘金者",
+ "description": "淘金者",
+ "img":"images/lode-runner.jpg",
+ "date": "2025-02-16",
+ "readTime": "10分钟阅读",
+ "slug": "lode-runner"
 }
        ]
   },

@@ -240,7 +240,7 @@
      "slug": "The-Legend-of-Kage"
    },
    {
-    "id": 22,
+    "id": 12,
     "title": "Hudson’s Adventure Island",
     "description": "Hudson’s Adventure Island",
     "img":"images/hudsons-adventure-island.jpg",
@@ -250,13 +250,22 @@
   }
   ,
    {
-    "id": 23,
+    "id": 13,
     "title": "Rushn Attack",
     "description": "rushn attack",
     "img":"images/rushn-attack.jpg",
     "date": "2025-02-16",
     "readTime": "10分钟阅读",
     "slug": "rushn-attack"
+  },
+  {
+  "id": 14,
+  "title": "Lode Runner",
+  "description": "Lode Runner",
+  "img":"images/lode-runner.jpg",
+  "date": "2025-02-16",
+  "readTime": "10分钟阅读",
+  "slug": "lode-runner"
   }
     ]
   },
