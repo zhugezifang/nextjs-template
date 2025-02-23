@@ -4,7 +4,7 @@ description: "Lode Runner is a 2D puzzle-platformer game that was created by Dou
 date: "2024-12-13"
 author: "张三1"
 readTime: "10分钟阅读"
-url: "https://retromania.gg/games/nes/lode-runner"
+url: "https://retromania.gg/games/nes/lode-runner/iframe"
 ---
 
 ## Introduction

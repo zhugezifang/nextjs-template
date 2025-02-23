@@ -4,7 +4,7 @@ description: "《淘金者》是一款1983年由Doug Smith开发、Broderbund发
 date: "2024-12-13"
 author: "张三1"
 readTime: "10分钟阅读"
-url: "https://retromania.gg/games/nes/lode-runner"
+url: "https://retromania.gg/games/nes/lode-runner/iframe"
 ---
 
 ## 介绍

@@ -4,7 +4,7 @@ description: "Bomberman (ボンバーマン, Bonbāman), briefly known as Dyna B
 date: "2024-03-15"
 author: "张三1"
 readTime: "10分钟阅读"
-url: "https://retromania.gg/games/nes/tank-1990/iframe"
+url: "https://retromania.gg/games/nes/bomberman/iframe"
 ---
 
 ## Bomberman Introduction
