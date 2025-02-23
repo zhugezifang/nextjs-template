@@ -1,6 +1,6 @@
 ---
 title: "Knights of Valour Game Online-Sangoku Senki"
-description: "Few titles have deeply branded themselves in the player's minds within the domains of classic arcade games such as "Knights of Valour." This arcade side-scrolling beat-em-up game developed by IGS and sold on an arcade in 1999 has survived the test of time and systems to become the most loved one among gamers worldwide. "
+description: "Few titles have deeply branded themselves in the player's minds within the domains of classic arcade games such as "Knights of Valour.This arcade side-scrolling beat-em-up game developed by IGS and sold on an arcade in 1999 has survived the test of time and systems to become the most loved one among gamers worldwide."
 date: "2024-12-13"
 author: "张三1"
 readTime: "10分钟阅读"
