@@ -12,6 +12,27 @@ export const runtime = 'edge'
 
 export default async function BlogPost({ params }: { params: { slug: string, lang: Locale } }) {
   const dict = await getDictionary(params.lang)
+
+  // Bug 修复：显式声明 result 数组的类型
+  const result: {id:number,title:string,description:string;img:string;date:string;readTime:string;slug:string; }[] = [];
+  dict.blog.posts.forEach((menu) => {
+    if (menu.slug === params.slug) {
+      return;
+    } else {
+      result.push(menu);
+    }
+  });
+
+  // 从result里面随机取三个
+  const randomThree = new Set();
+  while (randomThree.size < 3) {
+    const randomIndex = Math.floor(Math.random() * result.length);
+    randomThree.add(result[randomIndex]);
+  }
+
+  // 将 Set 转换为数组
+  const randomThreeArray:any = Array.from(randomThree);
+
   const post = await getPost(params.slug, params.lang) as unknown as { 
     title: string; 
     date: string; 
@@ -32,6 +53,42 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
           <div id="container-d1472120778daf83cc623354618f95b3"></div>
         </div>
         <div className="mt-4" dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
+
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-6">
+            {randomThreeArray.map((post: {id:number,title:string,description:string;img:string;date:string;readTime:string;slug:string; }) => (
+              <a href={`/${params.lang}/game/${post.slug}`}>
+                <div className="text-center">
+                  <div className="relative w-full h-32 bg-black rounded-lg overflow-hidden">
+                    <img src={post.img} alt={post.title} className="object-cover w-full h-full"/>
+                  </div>
+                  <p className="mt-2 text-sm">{post.title}</p>
+                </div>
+              </a>
+            ))}
+         </div>
+
+
+         <div className="container py-2 px-4">
+          
+          <div className="flex items-center justify-between mb-6">
+            <span className="text-3xl font-bold">{params.lang === 'en' ? 'Other Games' : '相关游戏'}</span>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-6">
+            {randomThreeArray.map((post: {id:number,title:string,description:string;img:string;date:string;readTime:string;slug:string; }) => (
+              <a href={`/${params.lang}/game/${post.slug}`}>
+                <div className="text-center">
+                  <div className="relative w-full h-32 bg-black rounded-lg overflow-hidden">
+                    <img src={post.img} alt={post.title} className="object-cover w-full h-full"/>
+                  </div>
+                  <p className="mt-2 text-sm">{post.title}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+          
+         </div>
+      
       </article>
 
       <ScrollToTop />
