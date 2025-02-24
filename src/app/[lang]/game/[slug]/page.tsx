@@ -53,9 +53,10 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
           <div id="container-d1472120778daf83cc623354618f95b3"></div>
         </div>
         <div className="mt-4" dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
+      
+      </article>
 
-
-         <div className="container py-2 px-4">
+      <div className="container py-2 px-4">
           
           <div className="flex items-center justify-between mb-6">
             <span className="text-3xl font-bold">{params.lang === 'en' ? 'Other Games' : '相关游戏'}</span>
@@ -74,9 +75,7 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
             ))}
           </div>
           
-         </div>
-      
-      </article>
+      </div>
 
       <ScrollToTop />
     </main>
