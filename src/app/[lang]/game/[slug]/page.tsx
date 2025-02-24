@@ -25,7 +25,7 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
 
   // 从result里面随机取三个
   const randomThree = new Set();
-  while (randomThree.size < 3) {
+  while (randomThree.size < 8) {
     const randomIndex = Math.floor(Math.random() * result.length);
     randomThree.add(result[randomIndex]);
   }
@@ -56,7 +56,7 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
       
       </article>
 
-      <div className="container py-2 px-4">
+      <div className="py-2">
           
           <div className="flex items-center justify-between mb-6">
             <span className="text-3xl font-bold">{params.lang === 'en' ? 'Other Games' : '相关游戏'}</span>
