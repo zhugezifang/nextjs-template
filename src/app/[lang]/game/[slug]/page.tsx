@@ -54,19 +54,6 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
         </div>
         <div className="mt-4" dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-6">
-            {randomThreeArray.map((post: {id:number,title:string,description:string;img:string;date:string;readTime:string;slug:string; }) => (
-              <a href={`/${params.lang}/game/${post.slug}`}>
-                <div className="text-center">
-                  <div className="relative w-full h-32 bg-black rounded-lg overflow-hidden">
-                    <img src={post.img} alt={post.title} className="object-cover w-full h-full"/>
-                  </div>
-                  <p className="mt-2 text-sm">{post.title}</p>
-                </div>
-              </a>
-            ))}
-         </div>
-
 
          <div className="container py-2 px-4">
           
@@ -79,7 +66,7 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
               <a href={`/${params.lang}/game/${post.slug}`}>
                 <div className="text-center">
                   <div className="relative w-full h-32 bg-black rounded-lg overflow-hidden">
-                    <img src={post.img} alt={post.title} className="object-cover w-full h-full"/>
+                    <img src={`/${post.img}`} alt={post.title} className="object-cover w-full h-full"/>
                   </div>
                   <p className="mt-2 text-sm">{post.title}</p>
                 </div>
