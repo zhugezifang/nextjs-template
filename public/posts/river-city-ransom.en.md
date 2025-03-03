@@ -7,7 +7,7 @@ readTime: "10分钟阅读"
 url: "https://retromania.gg/games/nes/river-city-ransom/iframe"
 ---
 
-## 介绍
+## Introduction
 
 River City Ransom,known as Street Gangs in PAL regions, is an open world beat em up video game originally for the Nintendo Entertainment System. It is an English localization of Downtown Nekketsu Monogatari for the Famicom. The game was developed by Technōs Japan and released in Japan on April 25, 1989.
 
