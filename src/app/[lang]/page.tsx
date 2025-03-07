@@ -22,7 +22,7 @@ export default async function Home({
 
       <div className="container py-10 px-4">
 
-          <div className="flex justify-center mt-6">
+          <div className="flex justify-center py-4">
               <section className="">
                 <a target="_blank" className="container flex  px-4 bg-blue-500 text-white text-center p-2 rounded-md font-medium  text-xl gap-1 items-center w-full" href="https://docs.qq.com/doc/DZXpxZmxLSm9xY2FP">{dict.home.hero.title}
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-external-link ">
