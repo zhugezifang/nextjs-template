@@ -21,9 +21,21 @@ export default async function Home({
     <main className="flex flex-col items-center w-full">
 
       <div className="container py-10 px-4">
+
+          <div className="flex justify-center mt-6">
+              <section className="">
+                <a target="_blank" className="container flex  px-4 bg-blue-500 text-white text-center p-2 rounded-md font-medium  text-xl gap-1 items-center w-full" href="https://docs.qq.com/doc/DZXpxZmxLSm9xY2FP">{dict.home.hero.title}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-external-link ">
+                    <path d="M15 3h6v6"></path>
+                    <path d="M10 14 21 3"></path>
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  </svg>
+                </a>
+              </section>
+          </div>
           
           <div className="flex items-center justify-between mb-6">
-            <h1 className="text-3xl font-bold">{dict.home.game.title}</h1>
+            <h2 className="text-3xl font-bold">{dict.home.game.title}</h2>
             <a href="#" className="text-sm text-blue-500 hover:underline">{dict.home.game.more} &gt;</a>
           </div>
 
