@@ -4,7 +4,7 @@ description: "超级马里奥，任天堂经典游戏，现可在线畅玩。控
 date: "2024-03-15"
 author: "张三1"
 readTime: "10分钟阅读"
-url: "https://www.miniplay.com/embed/super-mario-bros"
+url: "https://mario-game-664.pages.dev/"
 ---
 
 ## 怎么玩
