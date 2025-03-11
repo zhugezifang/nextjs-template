@@ -45,11 +45,10 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
   return (
     <main className="container">
 
-      <article className="prose prose-gray dark:prose-invert mx-auto">
-        <h1 className="mb-4 text-center text-3xl font-bold">{post.title}</h1>
-        <Game url={post.url}></Game>
+      <div className="py-2">
 
-        <div className="py-2">
+          <h1 className="mb-4 text-center text-3xl font-bold">{post.title}</h1>
+          <Game url={post.url}></Game>
           
           <div className="flex items-center justify-between mb-6">
             <span className="text-3xl font-bold">{params.lang === 'en' ? 'Other Games' : '相关游戏'}</span>
@@ -68,7 +67,12 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
             ))}
           </div>
           
-        </div>
+      </div>
+
+      <article className="prose prose-gray dark:prose-invert mx-auto">
+        
+
+        
 
         <div className="py-4 mx-auto max-w-screen-xl sm:py-6">
           <script async data-cfasync="false" src="//dustinga.com/d1472120778daf83cc623354618f95b3/invoke.js"></script>
