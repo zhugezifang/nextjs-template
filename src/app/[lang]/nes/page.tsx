@@ -1,31 +1,29 @@
-//import { Button } from "@/components/ui/button"
-//import { Chrome } from "lucide-react"
-//import Features from "@/components/features"
-//import Hero from "@/components/hero"
-//import FAQ from "@/components/faq"
 import { getDictionary } from '@/i18n/get-dictionary'
 import type { Locale } from '@/i18n/config'
+import type { Metadata } from 'next'
 
 export const runtime = 'edge'
 
-export default async function Home({
+export default async function NES({
   params: { lang }
 }: {
   params: { lang: Locale }
 }) {
   const dict = await getDictionary(lang)
-  const tempPosts = dict.blog.posts.slice(0, 16);  // 取前 8 个元素
+  const tempPosts = dict.blog.posts;  // 取前 8 个元素
   const posts = tempPosts.sort((a, b) => b.id - a.id);  // 按 `id` 降序排序
 
   return (
     <main className="flex flex-col items-center w-full">
 
+      <div className="max-w-4xl w-full mx-auto text-center py-4">
+          <h1 className="text-4xl font-bold text-gray-800 mb-4">{dict.home.game.longTitle}</h1>
+          <p className="py-4">
+          {dict.home.game.desc}
+          </p>
+      </div>
+
       <div className="container py-10 px-4">
-          
-          <div className="flex items-center justify-between mb-6">
-            <h2 className="text-3xl font-bold">{dict.home.game.title}</h2>
-            <a href={`/${lang}/${dict.home.game.url}`} className="text-sm text-blue-500 hover:underline">{dict.home.game.more} &gt;</a>
-          </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-6">
             {posts.map(post => (
@@ -46,3 +44,31 @@ export default async function Home({
     </main>
   )
 }
+
+
+export async function generateMetadata({ 
+  params: { lang } 
+}: { 
+  params: { lang: Locale } 
+}): Promise<Metadata> {
+  const dict = await getDictionary(lang)
+  const url = process.env.NEXT_PUBLIC_APP_URL || 'https://your-domain.com'
+
+  return {
+    title: dict.home.game.longTitle,
+    description: dict.home.game.desc,
+    alternates: {
+      canonical: `${url}/${lang}/nes`,
+      languages: {
+        'en': `${url}/en/nes`,
+        'zh': `${url}/zh/nes`,
+      },
+    },
+    openGraph: {
+      title: dict.home.game.longTitle,
+      description: dict.home.game.desc,
+      url: `${url}/${lang}/game`,
+    }
+  }
+}
+

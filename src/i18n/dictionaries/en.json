@@ -12,7 +12,10 @@
   "home": {
     "game":{
       "title":"Nintendo Entertainment System (NES) Games",
-      "more":"more"
+      "longTitle":"Nintendo Entertainment System (NES) Games Online",
+      "desc":"Online Game Provide Nintendo Entertainment System Games, like super mario and battle city and so on,give you a better game experience",
+      "more":"more",
+      "url":"nes"
     },
     "hero": {
       "title": "Chat Group",
