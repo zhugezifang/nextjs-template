@@ -17,6 +17,10 @@ export function BreadcrumbWrapper({ lang, dict }: BreadcrumbWrapperProps) {
     return null
   }
 
+  if (pathname.includes("nes")) {
+    return null
+  }
+
   const items = getBreadcrumbItems(pathname, dict)
 
   return (

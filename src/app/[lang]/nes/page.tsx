@@ -17,7 +17,7 @@ export default async function NES({
     <main className="flex flex-col items-center w-full">
 
       <div className="max-w-4xl w-full mx-auto text-center py-4">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">{dict.home.game.longTitle}</h1>
+          <h1 className="text-4xl font-bold mb-4">{dict.home.game.longTitle}</h1>
           <p className="py-4">
           {dict.home.game.desc}
           </p>
@@ -30,7 +30,7 @@ export default async function NES({
               <a href={`/${lang}/game/${post.slug}`}>
                 <div className="text-center">
                   <div className="relative w-full h-32 bg-black rounded-lg overflow-hidden">
-                    <img src={post.img} alt={post.title} className="object-cover w-full h-full"/>
+                    <img src={`/${post.img}`} alt={post.title} className="object-cover w-full h-full"/>
                   </div>
                   <p className="mt-2 text-sm">{post.title}</p>
                 </div>
