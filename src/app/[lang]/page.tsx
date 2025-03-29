@@ -14,7 +14,7 @@ export default async function Home({
   params: { lang: Locale }
 }) {
   const dict = await getDictionary(lang)
-  const tempPosts = dict.blog.posts
+  const tempPosts = dict.blog.posts.slice(0, 16);  // 取前 8 个元素
   const posts = tempPosts.sort((a, b) => b.id - a.id);  // 按 `id` 降序排序
 
   return (
