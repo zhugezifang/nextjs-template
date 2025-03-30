@@ -42,7 +42,7 @@ export default async function Home({
             ))}
           </div>
 
-          <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center justify-between mb-6 mt-8">
             <h2 className="text-3xl font-bold">{dict.home.classicGame.title}</h2>
             <a href='#' className="text-sm text-blue-500 hover:underline">{dict.home.classicGame.more} &gt;</a>
           </div>
