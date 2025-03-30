@@ -10,10 +10,17 @@
     "download": "下载插件"
   },
   "home": {
-    "game":{
+    "nesGame":{
       "title":"红白机游戏",
       "longTitle": "红白机小霸王经典游戏大全——红白机游戏盒",
       "desc":"在线免费畅玩或下载红白机游戏，包括魂斗罗，超级玛丽，坦克大战等小霸王经典游戏，让我们一同找回童年的快乐，体验童年的乐趣。",
+      "more":"更多",
+      "url":"nes"
+    },
+    "classicGame":{
+      "title":"经典游戏",
+      "longTitle": "经典游戏",
+      "desc":"经典游戏,包括:愤怒的小鸟",
       "more":"更多",
       "url":"nes"
     },
@@ -319,7 +326,18 @@
 "readTime": "10分钟阅读",
 "slug": "Rainbow-Islands"
 }
-       ]
+    ],
+    "postsClassic":[
+      {
+        "id": 1,
+        "title": "愤怒的小鸟",
+        "description": "愤怒的小鸟",
+        "img":"images/flappy-bird.png",
+        "date": "2024-03-15",
+        "readTime": "10分钟阅读",
+        "slug": "flappy-bird"
+      }
+    ]
   },
   "auth": {
     "signin": {

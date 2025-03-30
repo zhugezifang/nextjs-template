@@ -10,10 +10,17 @@
     "profile": "Profile"
   },
   "home": {
-    "game":{
+    "nesGame":{
       "title":"Nintendo Entertainment System (NES) Games",
       "longTitle":"Nintendo Entertainment System (NES) Games Online",
       "desc":"Online Game Provide Nintendo Entertainment System Games, like super mario and battle city and so on,give you a better game experience",
+      "more":"more",
+      "url":"nes"
+    },
+    "classicGame":{
+      "title":"Classic Games",
+      "longTitle":"Classic Games Online",
+      "desc":"Online Classic Games Game Provide flappy bird and so on,give you a better game experience",
       "more":"more",
       "url":"nes"
     },
@@ -327,6 +334,17 @@
   "readTime": "10分钟阅读",
   "slug": "Rainbow-Islands"
   }
+    ],
+    "postsClassic":[
+      {
+        "id": 1,
+        "title": "flappy bird",
+        "description": "flappy bird",
+        "img":"images/flappy-bird.png",
+        "date": "2024-03-15",
+        "readTime": "10分钟阅读",
+        "slug": "flappy-bird"
+      }
     ]
   },
   "auth": {

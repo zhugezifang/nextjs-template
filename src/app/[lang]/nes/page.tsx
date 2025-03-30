@@ -17,9 +17,9 @@ export default async function NES({
     <main className="flex flex-col items-center w-full">
 
       <div className="max-w-4xl w-full mx-auto text-center py-4">
-          <h1 className="text-4xl font-bold mb-4">{dict.home.game.longTitle}</h1>
+          <h1 className="text-4xl font-bold mb-4">{dict.home.nesGame.longTitle}</h1>
           <p className="py-4">
-          {dict.home.game.desc}
+          {dict.home.nesGame.desc}
           </p>
       </div>
 
@@ -55,8 +55,8 @@ export async function generateMetadata({
   const url = process.env.NEXT_PUBLIC_APP_URL || 'https://your-domain.com'
 
   return {
-    title: dict.home.game.longTitle,
-    description: dict.home.game.desc,
+    title: dict.home.nesGame.longTitle,
+    description: dict.home.nesGame.desc,
     alternates: {
       canonical: `${url}/${lang}/nes`,
       languages: {
@@ -65,8 +65,8 @@ export async function generateMetadata({
       },
     },
     openGraph: {
-      title: dict.home.game.longTitle,
-      description: dict.home.game.desc,
+      title: dict.home.nesGame.longTitle,
+      description: dict.home.nesGame.desc,
       url: `${url}/${lang}/game`,
     }
   }
