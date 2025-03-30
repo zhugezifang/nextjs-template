@@ -4,7 +4,7 @@ description: "Playing Contra game online free is like taking a trip down memory 
 date: "2024-01-02"
 author: "张三1"
 readTime: "10分钟阅读"
-url: "https://www.retrogames.cc/embed/16841-contra-usa.html"
+url: "https://retromania.gg/games/nes/contra/iframe"
 ---
 
 ## Contra Game Online Free: A New Way to Play

@@ -1,10 +1,10 @@
 ---
-title: "魂斗罗 Online"
+title: "魂斗罗 在线玩"
 description: "红白机上的魂斗罗画面，现在瞅着可能觉得糙了点，但在当年，那可酷炫得很。游戏里场景做得老细致了，从丛林到基地，每个地儿的敌人和陷阱都不一样。如果你想重温它，那就从里开始在线玩魂斗罗吧"
 date: "2024-01-02"
 author: "张三1"
 readTime: "10分钟阅读"
-url: "https://www.retrogames.cc/embed/16841-contra-usa.html"
+url: "https://retromania.gg/games/nes/contra/iframe"
 ---
 
 ## 开头咱先扯扯魂斗罗主角
