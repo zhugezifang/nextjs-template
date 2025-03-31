@@ -353,6 +353,15 @@
         "date": "2024-03-15",
         "readTime": "10分钟阅读",
         "slug": "Plants-Vs-Zombies"
+      },
+      {
+        "id": 3,
+        "title": "Fruit Ninja",
+        "description": "Fruit Ninja",
+        "img":"images/Fruit-Ninja.png",
+        "date": "2024-03-15",
+        "readTime": "10分钟阅读",
+        "slug": "Fruit-Ninja"
       }
     ]
   },
