@@ -50,7 +50,7 @@ export default async function BlogPost({ params }: { params: { slug: string, lan
           <h1 className="mb-4 text-center text-3xl font-bold">{post.title}</h1>
           <Game url={post.url}></Game>
           
-          <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center justify-between mb-6 mt-4">
             <span className="text-3xl font-bold">{params.lang === 'en' ? 'Other Games' : '相关游戏'}</span>
           </div>
 
