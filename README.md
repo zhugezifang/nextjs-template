@@ -1,7 +1,7 @@
-https://static.mipa.fun/angrybirds/game/index/index.html
+lagged.com/games/play2/angry-heroes-birds-13946/
 
 slithergame.io/slither-io.embed
 
 https://fruit-ninja-online.pages.dev/
 
-https://static.mipa.fun/master/game/eluosifangkuai/resource/index.html
+playtetris.online/tetris
