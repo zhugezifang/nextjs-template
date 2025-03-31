@@ -336,6 +336,15 @@
         "date": "2024-03-15",
         "readTime": "10分钟阅读",
         "slug": "flappy-bird"
+      },
+      {
+        "id": 2,
+        "title": "植物大战僵尸",
+        "description": "植物大战僵尸",
+        "img":"images/Plants-vs-Zombies.png",
+        "date": "2024-03-15",
+        "readTime": "10分钟阅读",
+        "slug": "Plants-Vs-Zombies"
       }
     ]
   },
