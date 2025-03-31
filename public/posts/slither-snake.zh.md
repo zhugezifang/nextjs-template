@@ -4,7 +4,7 @@ description: "《贪食蛇》（也叫贪吃蛇）是1976年推出的一款街�
 date: "2024-03-15"
 author: "张三1"
 readTime: "10分钟阅读"
-url: "https://fruit-ninja-online.pages.dev"
+url: "https://slithergame.io/slither-io.embed"
 ---
 ## 游戏介绍
 
