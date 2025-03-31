@@ -12,6 +12,6 @@ Slither.io (stylized as slither.io) is a multiplayer online video game available
 
 The game grew in popularity following its promotion among several prominent YouTubers such as PewDiePie, and topped the App Store soon after its release. Slither.io's browser version was ranked by Alexa as one of the 1,000 most visited sites in July 2016, while the iOS version ranked first in the most downloaded apps on the App Store. A mobile version of the game for Android was released on March 27, 2016. The reception of the game was positive, with reviewers praising its appearance and customization but criticizing it for its low replay value and the high price users were required to pay to remove advertisements (although as of 2024, most versions of the game no longer show them).
 
-![Slither Snake](https://en.wikipedia.org/wiki/Slither.io)
+![Slither Snake](https://pic1.zhimg.com/80/352c46c4de79986de8bbf7ed4b531b0a_1440w.webp)
 
 This guide is based on information from the original source: [Slither Snake Wiki](https://en.wikipedia.org/wiki/Slither.io).

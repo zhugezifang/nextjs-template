@@ -12,6 +12,6 @@ url: "https://fruit-ninja-online.pages.dev"
 
 后进行演变出《贪吃蛇大作战》，它是武汉微派网络科技有限公司开发并发行的一款休闲、竞技类手游，于2016年6月8日上线。 《贪吃蛇大作战》中玩家控制一条小蛇在屏幕上移动，通过吃掉出现的食物逐渐增长。 游戏的目标是成为最长的蛇，同时避免撞到其他玩家或自己的身体。
 
-![水果忍者](https://pica.zhimg.com/v2-4b0119bf7e3df640f2a0fd671a257e9e_1440w.jpg)
+![贪吃蛇大作战](https://pic1.zhimg.com/80/352c46c4de79986de8bbf7ed4b531b0a_1440w.webp)
 
 本指南基于原始资料来源：[贪吃蛇 wiki](https://baike.baidu.com/item/%E8%B4%AA%E5%90%83%E8%9B%87%E5%A4%A7%E4%BD%9C%E6%88%98/17237264)。
