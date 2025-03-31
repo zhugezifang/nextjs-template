@@ -330,8 +330,8 @@
     "postsClassic":[
       {
         "id": 1,
-        "title": "愤怒的小鸟",
-        "description": "愤怒的小鸟",
+        "title": "flappy bird",
+        "description": "flappy bird",
         "img":"images/flappy-bird.png",
         "date": "2024-03-15",
         "readTime": "10分钟阅读",
