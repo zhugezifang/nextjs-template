@@ -4,7 +4,7 @@ description: "Plants vs. Zombies is a video game franchise developed by PopCap G
 date: "2024-03-15"
 author: "张三1"
 readTime: "10分钟阅读"
-url: "https://static.mipa.fun/pvz/game/index.html"
+url: "https://pvz.ee/iframe.php"
 ---
 ## Introduction
 

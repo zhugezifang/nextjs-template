@@ -4,7 +4,7 @@ description: "植物大战僵尸系列（英语：Plants vs. Zombies）是由艺
 date: "2024-03-15"
 author: "张三1"
 readTime: "10分钟阅读"
-url: "https://static.mipa.fun/pvz/game/index.html"
+url: "https://pvz.ee/iframe.php"
 ---
 ## 游戏介绍
 
