@@ -354,6 +354,15 @@
         "date": "2024-03-15",
         "readTime": "10分钟阅读",
         "slug": "Fruit-Ninja"
+      },
+      {
+        "id": 4,
+        "title": "贪吃蛇",
+        "description": "贪吃蛇",
+        "img":"images/slither-snake.png",
+        "date": "2024-03-15",
+        "readTime": "10分钟阅读",
+        "slug": "slither-snake"
       }
     ]
   },
