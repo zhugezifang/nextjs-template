@@ -1,0 +1,19 @@
+---
+title: "俄罗斯方块在线玩"
+description: "Tetris is a series of puzzle video games created in 1985 by Alexey Pajitnov, a Soviet software engineer. In Tetris games, falling tetromino shapes must be neatly sorted into a pile; once a horizontal line of the game board is filled in, it disappears, granting points and preventing the pile from overflowing. "
+date: "2025-02-08"
+author: "张三1"
+readTime: "10分钟阅读"
+url: "https://gamemonetize.co/game/pkyyuilfrqkcdnmrxsg60j22ypk0peje/"
+---
+
+
+## 介绍
+
+《俄罗斯方块》（俄语：Тетрис，英语：Tetris），是1980年末期至1990年代初期风靡全世界的电脑游戏，是落下型益智游戏的始祖，电子游戏领域的代表作之一，为苏联首个在美国发布的娱乐软件。此游戏最初由阿列克谢·帕基特诺夫在苏联设计和编写，于1984年6月6日首次发布，当时他正在苏联科学院电算中心工作。此游戏的名称是由希腊语数字“四”的前缀“tetra-”（因所有落下方块皆由四块组成）和帕基特诺夫最喜欢的运动网球（“tennis”）拼接而成，华语地区则因游戏为俄罗斯人发明普遍称为“俄罗斯方块”。
+
+此游戏和其续作可于几乎所有电子游戏机和电脑操作系统上游玩，亦可于图形计算器、手提电话、便携式媒体播放器、个人数码助理、互联网无线电设备上游玩，甚至能以彩蛋的形式在非媒体产品上游玩，如示波器。此游戏甚至启发了《俄罗斯方块》餐具。甚至在大楼外墙实现了相应的模式。
+
+![俄罗斯方块](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Typical_Tetris_Game.svg/1024px-Typical_Tetris_Game.svg.png)
+
+本指南基于原始资料来源：[俄罗斯方块 wiki](https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BE%85%E6%96%AF%E6%96%B9%E5%A1%8A)。

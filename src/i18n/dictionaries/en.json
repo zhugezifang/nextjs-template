@@ -371,6 +371,15 @@
         "date": "2024-03-15",
         "readTime": "10分钟阅读",
         "slug": "slither-snake"
+      },
+      {
+        "id": 5,
+        "title": "tetris",
+        "description": "tetris",
+        "img":"images/tetris.jpg",
+        "date": "2024-03-15",
+        "readTime": "10分钟阅读",
+        "slug": "tetris"
       }
     ]
   },
