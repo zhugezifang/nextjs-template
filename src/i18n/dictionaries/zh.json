@@ -372,6 +372,15 @@
         "date": "2024-03-15",
         "readTime": "10分钟阅读",
         "slug": "tetris"
+      },
+      {
+        "id": 6,
+        "title": "愤怒的小鸟",
+        "description": "愤怒的小鸟",
+        "img":"images/Angry-Birds.webp",
+        "date": "2024-03-15",
+        "readTime": "10分钟阅读",
+        "slug": "Angry-Birds"
       }
     ]
   },
