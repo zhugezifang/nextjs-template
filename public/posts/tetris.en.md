@@ -4,7 +4,7 @@ description: "Tetris is a series of puzzle video games created in 1985 by Alexey
 date: "2025-02-08"
 author: "张三1"
 readTime: "10分钟阅读"
-url: "https://gamemonetize.co/game/pkyyuilfrqkcdnmrxsg60j22ypk0peje/"
+url: "https://playtetris.online/tetris"
 ---
 
 
