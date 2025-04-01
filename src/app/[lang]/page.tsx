@@ -22,6 +22,11 @@ export default async function Home({
   return (
     <main className="flex flex-col items-center w-full">
 
+        <div className="max-w-6xl w-full mx-auto text-center">
+            <h1 className="md:text-4xl text-3xl font-extrabold">{dict.common.brand}</h1>            
+            <p className="mt-6"></p>
+        </div>
+
       <div className="container py-10 px-4">
           
           <div className="flex items-center justify-between mb-6">
