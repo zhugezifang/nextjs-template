@@ -4,7 +4,7 @@ description: "Angry Birds is a Finnish media franchise created by Rovio Entertai
 date: "2025-02-08"
 author: "张三1"
 readTime: "10分钟阅读"
-url: "https://en.gameslol.net/data/ruffle/ruffle.php?g=2"
+url: "https://funhtml5games.com?embed=angrybirds"
 ---
 
 
