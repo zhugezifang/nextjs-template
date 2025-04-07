@@ -6,6 +6,7 @@ Disallow: /api/
 Disallow: /_next/
 
 # 禁止访问认证相关页面
+Disallow: /*/search
 Disallow: /*/signin
 Disallow: /*/signup
 Disallow: /*/profile

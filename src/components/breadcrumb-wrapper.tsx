@@ -21,6 +21,10 @@ export function BreadcrumbWrapper({ lang, dict }: BreadcrumbWrapperProps) {
     return null
   }
 
+  if (pathname.includes("search")) {
+    return null
+  }
+
   const items = getBreadcrumbItems(pathname, dict)
 
   return (
