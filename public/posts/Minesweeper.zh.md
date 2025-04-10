@@ -4,7 +4,7 @@ description: "扫雷游戏（英语：Minesweeper）是一类逻辑谜题类电�
 date: "2025-02-08"
 author: "张三1"
 readTime: "10分钟阅读"
-url: "html/minesweeper-zh.html"
+url: "/html/minesweeper-zh.html"
 ---
 
 ## 介绍

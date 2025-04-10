@@ -4,7 +4,7 @@ description: "Minesweeper is a logic puzzle video game genre generally played on
 date: "2025-02-08"
 author: "张三1"
 readTime: "10分钟阅读"
-url: "html/minesweeper-en.html"
+url: "/html/minesweeper-en.html"
 ---
 
 
