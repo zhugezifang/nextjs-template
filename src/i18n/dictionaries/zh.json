@@ -381,6 +381,15 @@
         "date": "2024-03-15",
         "readTime": "10分钟阅读",
         "slug": "Angry-Birds"
+      },
+      {
+        "id": 7,
+        "title": "扫雷",
+        "description": "扫雷",
+        "img":"images/Minesweeper.jpg",
+        "date": "2024-03-15",
+        "readTime": "10分钟阅读",
+        "slug": "Minesweeper"
       }
     ]
   },

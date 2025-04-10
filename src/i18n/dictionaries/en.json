@@ -389,6 +389,15 @@
         "date": "2024-03-15",
         "readTime": "10分钟阅读",
         "slug": "Angry-Birds"
+      },
+      {
+        "id": 7,
+        "title": "Minesweeper",
+        "description": "Minesweeper",
+        "img":"images/Minesweeper.jpg",
+        "date": "2024-03-15",
+        "readTime": "10分钟阅读",
+        "slug": "Minesweeper"
       }
     ]
   },
