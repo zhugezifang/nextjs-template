@@ -17,7 +17,7 @@ export function BreadcrumbWrapper({ lang, dict }: BreadcrumbWrapperProps) {
     return null
   }
 
-  if (pathname.includes("nes")) {
+  if (pathname === `/${lang}/nes`) {
     return null
   }
 
