@@ -9,6 +9,7 @@ export default async function sitemap() {
   for (const locale of locales) {
     const dict = await getDictionary(locale)
     const posts = dict.blog.posts
+    const postsClassic = dict.blog.postsClassic
 
     // 添加主页
     sitemapEntries.push({
@@ -38,6 +39,17 @@ export default async function sitemap() {
         priority: 0.6,
       })
     }
+
+    // 添加博客文章页面
+    for (const post of postsClassic) {
+      sitemapEntries.push({
+        url: `${baseUrl}/${locale}/game/${post.slug}`,
+        lastModified: new Date(post.date),
+        changeFrequency: 'monthly',
+        priority: 0.6,
+      })
+    }
+    
   }
 
   return sitemapEntries
