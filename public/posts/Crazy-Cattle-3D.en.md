@@ -21,9 +21,10 @@ To play Crazy Cattle 3D Unblocked, a viral indie battle royale featuring sheep, 
 You will be presented with options to download the game for different operating systems
 Select the version appropriate for your operating system and the download will begin.
 
--- Download Crazy Cattle 3d for Windows: The file is named CrazyCattle3D.zip and has a file size of 50 MB.
--- Download Crazy Cattle 3d for MacOS: The file is named CrazyCattle3DMac.zip and has a file size of 78 MB.
--- Download Crazy Cattle 3d for Linux: The file is named CrazyCattle3DLinux.zip and has a file size of 44 MB.
--- Once the download is complete, launch the crazycattle3d game to start playing.
+* Download Crazy Cattle 3d for Windows: [download](https://crazycattle3d.io/game/dlc/crazyattle3d.zip) and has a file size of 50 MB.
+* Download Crazy Cattle 3d for MacOS: [download](https://crazycattle3d.io/game/dlc/crazyattle3dmac.zip) and has a file size of 78 MB.
+* Download Crazy Cattle 3d for Linux: [download](https://crazycattle3d.io/game/dlc/crazyattle3dlinux.zip) and has a file size of 44 MB.
+
+Once the download is complete, launch the crazycattle3d game to start playing.
 
 This guide is based on information from the original source: [Crazy Cattle 3D Wiki](https://crazycattle3d.io/).
