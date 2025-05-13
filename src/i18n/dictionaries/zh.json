@@ -390,6 +390,15 @@
         "date": "2024-03-15",
         "readTime": "10分钟阅读",
         "slug": "Minesweeper"
+      },
+      {
+        "id": 8,
+        "title": "Crazy Cattle 3D",
+        "description": "Crazy Cattle 3D",
+        "img":"images/Crazy-Cattle-3D.jpg",
+        "date": "2024-03-15",
+        "readTime": "10分钟阅读",
+        "slug": "Crazy-Cattle-3D"
       }
     ]
   },
