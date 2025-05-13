@@ -11,6 +11,8 @@ url: "https://crazycattle3d.io/crazy-cattle-3d.embed"
 
 Crazy Cattle 3D is an independent battle royale game where you play as an explosive sheep whose goal is to be the last sheep standing. Unlike traditional battle royale games that focus on weapons and resources, Crazy Cattle 3D's core gameplay revolves around physics-based movement, momentum, and strategic collisions. You navigate diverse terrains and eliminate other crazy sheep by bumping into them and knocking them off the map or into hazards. It's known for its simple premise, challenging gameplay, and often hilarious, chaotic outcomes.
 
+![Crazy Cattle 3D](/images/Crazy-Cattle-3D-Online.png)
+
 
 ## How to play Crazy Cattle 3D Unblocked?
 
