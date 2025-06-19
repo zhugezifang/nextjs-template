@@ -13,7 +13,8 @@ export default async function Footer({
 
   const footerLinks = {
     [dict.footer.product]: [
-      
+      { name: '免费简历模板', href: `https://cv-template.online/` },
+      { name: '無料のテンプレート', href: `https://templatejp.online/` },
     ],
     [dict.footer.social]: [
       { name: dict.footer.links.twitter, href: `` },
