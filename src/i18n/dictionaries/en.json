@@ -409,6 +409,16 @@
         "readTime": "10分钟阅读",
         "slug": "Crazy-Cattle-3D"
       }
+      ,
+      {
+        "id": 9,
+        "title": "Hole People",
+        "description": "Hole People",
+        "img":"images/hole-people.png",
+        "date": "2024-03-15",
+        "readTime": "10分钟阅读",
+        "slug": "hole-people"
+      }
     ]
   },
   "auth": {
