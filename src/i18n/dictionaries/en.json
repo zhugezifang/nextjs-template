@@ -418,6 +418,15 @@
         "date": "2024-03-15",
         "readTime": "10分钟阅读",
         "slug": "hole-people"
+      },
+      {
+        "id": 10,
+        "title": "Color Block Jam",
+        "description": "Color Block Jam",
+        "img":"images/Color-Block-Jam.png",
+        "date": "2024-03-15",
+        "readTime": "10分钟阅读",
+        "slug": "Color-Block-Jam"
       }
     ]
   },
