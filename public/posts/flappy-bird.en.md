@@ -4,7 +4,7 @@ description: "Flappy Bird is a 2013 casual mobile game developed by Vietnamese v
 date: "2024-03-15"
 author: "张三1"
 readTime: "10分钟阅读"
-url: "https://flappy-bird.io/flappy-bird.embed"
+url: "https://i2v.app/flappybird"
 ---
 ## Introduction
 
