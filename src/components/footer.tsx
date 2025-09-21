@@ -15,6 +15,8 @@ export default async function Footer({
     [dict.footer.product]: [
       { name: '免费简历模板', href: `https://cv-template.online/` },
       { name: '無料のテンプレート', href: `https://templatejp.online/` },
+      { name: 'RedNote Video Downloader',href:'https://rednotevideodownload.org/'},
+      { name: 'RedNote Video Downloader without Watermark',href: 'https://www.xhs-download.org/'}
     ],
     [dict.footer.social]: [
       { name: dict.footer.links.twitter, href: `` },
